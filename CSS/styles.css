@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #030303;
+  margin: 0;
+  padding: 0;
+  min-height: 2200px; 
+}
+
+.logo-music {
+    vertical-align: middle;
+}
+
+.music {
+    color: #ffff;
+    display: inline;
+    top: 5%;
+}
+
+.nav-music {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #334155;
+}
+.status-music {
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  color: #888888;
+  transform: translate(-3%, -50%);
+  font-size: 12px;
+  border: 1px solid #272727 ;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  background-color: #1a1a1a;
+          
+}
+
+.img-music {
+    position: absolute;
+    width: 90%;
+    display: block;
+    left: 4%;
+    bottom: 35%;
+    top: 4%;
+
+}
+
+.card-music {
+    top: 16%;
+    background-color: #1f1f1f ;
+    border: 1px solid #383838;
+    padding: 350px;
+    width: 320px;
+    position: absolute;
+    left: 40%;
+    border-radius: 0.2rem;
+    z-index: 10;
+    bottom: 350px;
+}
+
+.resolucao {
+    position: absolute;
+    top: 6%; 
+    left: 2%;
+    z-index: 10;
+    border: 1px solid #272727  ;
+    color: #ffff;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 0%;
+}
+
+.video-musica {
+    right: 16%;
+    position: absolute;
+    top: 6%; 
+    right: 8%;
+    z-index: 10;
+    border: 1px solid #272727  ;
+    color: #ffff;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 0%;
+}
+
+
+.contador {
+    right: 16%;
+    position: absolute; 
+    left: 5%;
+    z-index: 10;
+    border: 1px solid #272727  ;
+    color: #ffff;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 0%;
+    bottom: 48%;
+    width: 115px;
+    background-color: #1a1a1a;
+}
+
+.curtir {
+bottom: 48%;
+    right: 11%;
+    z-index: 10;
+    color: #ff0033;
+    position: absolute;
+    border: 1px solid #ff0033;
+    border-radius: 4px;
+    padding: 1px;
+}
+
+.mid {
+    color: #ffff;
+    font-weight: bolder;
+    left: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 261px;
+}
